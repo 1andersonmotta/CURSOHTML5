@@ -1,0 +1,72 @@
+table{
+    border: 1px solid black;
+    border-spacing: 0px;
+
+}
+table td{
+    border: 1px solid rgb(58, 221, 85);
+    padding: 20px;
+    
+}
+caption{
+    position: absolute;
+    left: 400px;
+    font: normal 20pt italic;
+    text-decoration: underline;
+    color: blue;
+    text-align: left;
+}
+table#tabela1{
+    width: 144px;
+    background-color: rgba(255, 255, 255, 0.664);
+
+}
+table#tabela1 td{
+color: blue;
+text-align: left;
+}
+table#tabela2{
+    color: red;
+    border:1px solid violet;
+    background: chartreuse;
+}
+table#tabela2 td{
+    border: 3px solid sienna;
+    text-align: center;
+    line-height: 0px;
+    vertical-align: bottom;
+
+
+    
+}
+table#tabela3 td{
+    font: normal 18pt italic;
+    border: 2px dashed red;
+    vertical-align: top;
+}
+table#tabela3 {
+    border: 3px solid black;
+    background: cadetblue;
+}
+section#corpo{
+    display: block;
+    float: left;
+    width: 150px;
+    border-right: 1px solid rgb(32, 32, 30);
+    padding-right: 25px;
+    background-color: tomato;
+
+}
+aside#lateral{
+    display: block;
+    float: center;
+
+}
+aside#direito{
+    display: block;
+    float: right;
+    top: -320px;
+    left: -500px;
+    position: relative;
+
+}
